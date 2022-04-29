@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHATTER</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+   <!-- section for chatSection -->
+    <section class="chatSection">
+      <div class="brand">
+        <img src="/logo.png" alt="" />
+        <h1>Chatter</h1>
+      </div>
+      <div class="messageArea"></div>
+      <div>
+        <textarea
+          id="textArea"
+          cols="30"
+          rows="1"
+          placeholder="Write message here"
+        ></textarea>
+      </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- to access socket server -->
+    <script src="/client.js"></script>
+  </body>
+</html>
